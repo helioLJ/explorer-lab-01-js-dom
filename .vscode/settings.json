@@ -1,14 +1,14 @@
 {
   // editor
-  "editor.wordWrap": "on",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 30,
-  "editor.tabSize": 2,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  // "editor.wordWrap": "on",
+  // "editor.fontSize": 18,
+  // "editor.lineHeight": 30,
+  // "editor.tabSize": 2,
+  // "editor.bracketPairColorization.enabled": true,
+  // "editor.guides.bracketPairs": true,
+  // "editor.minimap.enabled": false,
+  // "editor.formatOnSave": true,
+  // "editor.formatOnPaste": true,
 
   // explorer
   "explorer.compactFolders": false,
@@ -33,5 +33,8 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
